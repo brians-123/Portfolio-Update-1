@@ -14,52 +14,52 @@
 <body>
     <ul class="nav">
         <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Shor</a>
+            <a class="nav-link active" aria-current="page" href="#">Brian Shor</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">About Me</a>
+            <a class="nav-link" href="#about-me">About Me</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Work</a>
+            <a class="nav-link" href="#work">Work</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+            <a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true">Contact</a>
         </li>
     </ul>
     <div class="jumbotron jumbotron-fluid has-bg-img">
         <img class="img-fluid" src="images/laptop-with-code.jpg">
         <div class=" container">
 
-            <h1 class="display-4">About Me</h1>
+            <h1 class="display-4" id="about-me">About Me</h1>
             <div class="container">
                 <p class="lead">Hello. My name is Brian.</p>
-                <p>I've been a business analyst for the last 15 years at technology companies with a focus
+                <div class="clearfix">
+                    <img src="/images/deception pass v2.jpg" alt="selfie at deception pass"
+                        class="float-left col-lg-2 col-md-1 align-top img-fluid">
+                    I've been a business analyst for the last 15 years at technology companies, with a focus
                     in Salesforce and operations. I've always enjoyed working with code but my management
                     information systems degree was not strong enough to really dive into it at
                     an enterprise level. In September2020, I began a coding bootcamp through the University
                     of Washington. This site will chronicle my journey as I learn, struggle,
                     and persevere, until one day I become a developer...even if I'm not changing my title.</p>
+                </div>
             </div>
         </div>
     </div>
     <div class="container">
+        <h1 class="display-4" id="work">Work</h1>
+
+
         <div class="row">
-            <div class="col-sm-12 py-4">
-                <div class="card">
-                    <img class="card-img-top" src="images/Battleship.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Battleship App</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
             <div class="col-sm-4 py-4">
                 <div class="card">
                     <img class="card-img-top" src="images/day-planner.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Day Planner App</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text">Allows the user to save events for each hour of the day. This app will
+                            run
+                            in the browser and feature dynamically updated HTML and CSS
+                            powered by jQuery.</p>
                         <a href="https://brians-123.github.io/05-Third-Party-APIs-scheduler/"
                             class="btn btn-primary">Github</a>
                     </div>
@@ -70,7 +70,9 @@
                     <img class="card-img-top" src="images/lock.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Random Password Creator</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text">Responsive site to generate employee passwords with javascript.
+                            Password
+                            complexity is determined by user selection.</p>
                         <a href="https://brians-123.github.io/Random-Password-Creator/"
                             class="btn btn-primary">Github</a>
                     </div>
@@ -81,7 +83,9 @@
                     <img class="card-img-top" src="images/taking-test.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Quiz App</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text">Gives 60 seconds to finish a multiple choice quiz. High scores are
+                            provided
+                            once finished. Uses vanilla javascript.</p>
                         <a href="https://brians-123.github.io/Javascript-Quiz/" class="btn btn-primary">Github</a>
                     </div>
                 </div>
@@ -91,7 +95,9 @@
                     <img class="card-img-top" src="images/wall-street.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Stocks and Taxes</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text">Pulls stock quotes and tax info via API allowing users to buy, sell,
+                            and
+                            see expected returns after taxes.</p>
                         <a href="https://zhanez.github.io/Project-1/" class="btn btn-primary">Github</a>
                     </div>
                 </div>
@@ -101,7 +107,8 @@
                     <img class="card-img-top" src="images/weather-app.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Weather Forecast</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text">Use weather API to search by city, and save data in local storage. Uses
+                            javascript, bootstrap, jquery and APIs.</p>
                         <a href="https://brians-123.github.io/06-Server-Side-Weather-API/"
                             class="btn btn-primary">Github</a>
                     </div>
@@ -109,13 +116,13 @@
             </div>
         </div>
     </div>
-    <footer class="bg-light text-center text-lg-start">
+    <footer class="bg-light text-center text-lg-start" id="contact">
         <!-- Grid container -->
         <div class="container p-4">
             <!--Grid row-->
             <div class="row">
                 <!--Grid column-->
-                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
                     <h5 class="text-uppercase text-center">
                         <a href="#!" class="text-dark">Email</a>
                     </h5>
@@ -123,7 +130,7 @@
                 <!--Grid column-->
 
                 <!--Grid column-->
-                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
                     <h5 class="text-uppercase mb-0 text-center">
                         <a href="https://github.com/brians-123" class="text-dark">Github</a>
                     </h5>
@@ -131,13 +138,30 @@
                 <!--Grid column-->
 
                 <!--Grid column-->
-                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
                     <h5 class="text-uppercase text-center">
-                        <a href="https://github.com/brians-123" class="text-dark">LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/brianshor/" class="text-dark">LinkedIn</a>
 
                     </h5>
                 </div>
                 <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase text-center">
+                        <a href="./images/Resume.pdf" class="text-dark" download>Resume</a>
+
+                    </h5>
+                </div>
+                <!--Grid column-->
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase text-center">
+                        <a href="#" class="text-dark">Phone: 555-5555</a>
+                    </h5>
+                </div>
+                <!--Grid column-->
+
 
             </div>
             <!--Grid row-->
