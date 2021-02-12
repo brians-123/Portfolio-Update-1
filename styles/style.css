@@ -14,3 +14,9 @@ body {
 .card {
   background-color: #ffe8d6;
 }
+#work-nav {
+  margin-right: auto;
+}
+#contact-brian {
+  text-decoration: none;
+}
